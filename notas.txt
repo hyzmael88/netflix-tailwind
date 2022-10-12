@@ -1,0 +1,11 @@
+para firebase 
+entre a firebasecree una app
+no seleccione lo de hosting
+cree un archivo js de firebase
+pegue lo que me devolvio la pag de firebase
+cree un archivo .env 
+Fui a autenticacion de firebase 
+agregue que sea por correo y contrasena
+depsues entre aqui:
+https://firebase.google.com/docs/auth/web/start?authuser=0&hl=es
+Para agregar el auth
