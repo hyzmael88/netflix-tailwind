@@ -8,6 +8,7 @@ import { AuthContextProvider } from './context/AuthContext'
 import SignUp from './Pages/SignUp'
 import Login from './Pages/Login'
 import Account from './Pages/Account'
+import ProtectedRoute from './Pages/ProtectedRoute'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,7 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/signup" element={<SignUp />}/>
-        <Route path="/account" element={<Account />}/>
+        <Route path="/account" element={<ProtectedRoute><Account /></ProtectedRoute>}/>
       </Routes>
       </AuthContextProvider>
     </div>

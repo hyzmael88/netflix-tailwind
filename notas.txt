@@ -9,3 +9,24 @@ agregue que sea por correo y contrasena
 depsues entre aqui:
 https://firebase.google.com/docs/auth/web/start?authuser=0&hl=es
 Para agregar el auth
+
+Para tener mis usuarios guardados con sus propiedades (peliculas favs)
+en firebase busque firestore 
+
+Una vez que terminemos el proyecto corremos estos comandos
+
+-npm i  -g firebase-tools
+
+Firebase login
+
+-Firebase init 
+
+-Select - hosting -configure
+
+ -existing-build
+
+-Set to build folder (important)
+
+-yarn run build
+
+Firebase deploy
